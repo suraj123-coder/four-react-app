@@ -1,0 +1,18 @@
+.divclass{
+    background-color: aqua;
+     height: 60%; 
+     width: 50%; 
+
+     margin: 10px;
+     padding: 10px;
+     border: red;
+     /* border-radius:red ; */
+     border-style: solid;
+}
+h1{
+    margin: 10px;
+    padding: 10px;
+    border: red;
+    /* border-radius:red ; */
+    border-style: solid;
+}

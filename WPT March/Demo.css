@@ -1,0 +1,27 @@
+p{
+    color:red;
+    background-color:blueviolet;
+}
+
+h1{
+
+    color:aquamarine;
+}
+
+h2{
+    color:blue;
+}
+
+.p-background{
+    background-color:chartreuse;
+}
+
+#h2-bg{
+    background-color:aqua ;
+}
+.p-color{
+    color: antiquewhite;
+}
+.span-bg{
+    background-color: aqua;
+}
