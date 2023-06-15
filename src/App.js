@@ -1,21 +1,21 @@
 function App() {
   return (
     <>
-      <h1>Props Demo</h1>
+      <h1>props demo</h1>
 
-      {/** Calling the MessageDemo */}
-      <MessageDemo />
-      <MessageDemo />
-      <MessageDemo />
+       {/** Calling the MessageDemo(1, 'abcd') */}
+      <MessageDemo name="vitthal"/>
+      <MessageDemo name="Suraj"/>
+      <MessageDemo name="Suhas"/>
+      <MessageDemo name="Akash"/>
     </>
   );
 }
 
-// Reusable + but returns static output
-function MessageDemo() {
-  return (
+function MessageDemo(props) {
+  return(
     <>
-      <h1>Hello Message</h1>
+      <h1>Hello {props.name}</h1>
     </>
   );
 }
