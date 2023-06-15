@@ -2,20 +2,25 @@ function App() {
   return (
     <>
       <h1>props demo</h1>
-
-       {/** Calling the MessageDemo(1, 'abcd') */}
-      <MessageDemo name="vitthal"/>
-      <MessageDemo name="Suraj"/>
-      <MessageDemo name="Suhas"/>
-      <MessageDemo name="Akash"/>
+      <ListDemo/>
+       
     </>
   );
 }
 
-function MessageDemo(props) {
+function ListDemo() {
+  let data ="Hello Universe";
+  let list=["delhi","culcutta", "mumabai"];
   return(
     <>
-      <h1>Hello {props.name}</h1>
+      <h1>{data}</h1>
+
+      {list.forEach((item)=>item)}
+
+      {/** map is input/output */}
+      {/** OUTPUT BCZ OF THIS */}
+
+      {list.map((item)=>item)}
     </>
   );
 }
